@@ -1,0 +1,160 @@
+2022-03-26 06:27:40.531 INFO  (main) [   ] o.e.j.u.log Logging initialized @2123ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-03-26 06:27:40.962 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 15.0.1+9-18
+2022-03-26 06:27:40.979 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/saiteja_11/Downloads/solr/server/contexts/] at interval 0
+2022-03-26 06:27:41.483 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2022-03-26 06:27:41.499 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2022-03-26 06:27:41.500 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2022-03-26 06:27:41.504 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2022-03-26 06:27:41.637 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2022-03-26 06:27:41.643 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.11.1
+2022-03-26 06:27:41.644 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2022-03-26 06:27:41.644 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/saiteja_11/Downloads/solr
+2022-03-26 06:27:41.645 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2022-03-26T06:27:41.645133Z
+2022-03-26 06:27:41.679 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: /Users/saiteja_11/Downloads/solr/server/solr
+2022-03-26 06:27:41.680 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/saiteja_11/Downloads/solr/server/solr/solr.xml
+2022-03-26 06:27:41.839 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@5b218417, but no JMX reporters were configured - adding default JMX reporter.
+2022-03-26 06:27:42.589 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2022-03-26 06:27:42.871 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@7bc6d27a[provider=null,keyStore=null,trustStore=null]
+2022-03-26 06:27:42.874 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@7bc6d27a[provider=null,keyStore=null,trustStore=null]
+2022-03-26 06:27:43.178 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@55259aa7[provider=null,keyStore=null,trustStore=null]
+2022-03-26 06:27:43.181 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@55259aa7[provider=null,keyStore=null,trustStore=null]
+2022-03-26 06:27:43.266 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2022-03-26 06:27:43.555 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+2022-03-26 06:27:43.571 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2022-03-26 06:27:43.699 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5b218417
+2022-03-26 06:27:43.700 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5b218417
+2022-03-26 06:27:43.719 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5b218417
+2022-03-26 06:27:43.769 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /Users/saiteja_11/Downloads/solr/server/solr
+2022-03-26 06:27:43.896 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@3fc9dfc5{/solr,file:///Users/saiteja_11/Downloads/solr/server/solr-webapp/webapp/,AVAILABLE}{/Users/saiteja_11/Downloads/solr/server/solr-webapp/webapp}
+2022-03-26 06:27:43.920 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@119020fb{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2022-03-26 06:27:43.921 INFO  (main) [   ] o.e.j.s.Server Started @5516ms
+2022-03-26 06:28:24.756 INFO  (qtp451460284-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=40
+2022-03-26 06:28:24.853 INFO  (qtp451460284-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=8
+2022-03-26 06:28:24.881 INFO  (qtp451460284-21) [   x:tweets_data] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=tweets_data&action=STATUS&wt=json} status=0 QTime=2
+2022-03-26 06:28:24.923 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.h.a.CoreAdminOperation core create command name=tweets_data&action=CREATE&instanceDir=tweets_data&wt=json
+2022-03-26 06:28:25.123 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.1
+2022-03-26 06:28:25.170 WARN  (qtp451460284-18) [   x:tweets_data] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2022-03-26 06:28:25.296 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.s.IndexSchema Schema name=default-config
+2022-03-26 06:28:26.569 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2022-03-26 06:28:26.669 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.c.CoreContainer Creating SolrCore 'tweets_data' using configuration from instancedir /Users/saiteja_11/Downloads/solr/server/solr/tweets_data, trusted=true
+2022-03-26 06:28:26.696 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.tweets_data' (registry 'solr.core.tweets_data') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5b218417
+2022-03-26 06:28:26.724 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.c.SolrCore [[tweets_data] ] Opening new SolrCore at [/Users/saiteja_11/Downloads/solr/server/solr/tweets_data], dataDir=[/Users/saiteja_11/Downloads/solr/server/solr/tweets_data/data/]
+2022-03-26 06:28:27.994 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2022-03-26 06:28:27.995 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2022-03-26 06:28:28.010 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2022-03-26 06:28:28.010 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2022-03-26 06:28:28.077 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/saiteja_11/Downloads/solr/server/solr/tweets_data/conf
+2022-03-26 06:28:28.100 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2022-03-26 06:28:28.109 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxQueryFrequency=0.01,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4}
+2022-03-26 06:28:28.150 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2022-03-26 06:28:28.161 INFO  (qtp451460284-18) [   x:tweets_data] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1728342768391028736
+2022-03-26 06:28:28.169 INFO  (searcherExecutor-15-thread-1-processing-x:tweets_data) [   x:tweets_data] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-03-26 06:28:28.170 INFO  (searcherExecutor-15-thread-1-processing-x:tweets_data) [   x:tweets_data] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2022-03-26 06:28:28.172 INFO  (qtp451460284-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=tweets_data&action=CREATE&instanceDir=tweets_data&wt=json} status=0 QTime=3250
+2022-03-26 06:28:28.183 INFO  (searcherExecutor-15-thread-1-processing-x:tweets_data) [   x:tweets_data] o.a.s.c.SolrCore [tweets_data]  Registered new searcher autowarm time: 0 ms
+2022-03-26 06:28:53.277 INFO  (qtp451460284-21) [   x:tweets_data] o.a.s.u.p.LogUpdateProcessorFactory [tweets_data]  webapp=/solr path=/update params={commit=true}{commit=} 0 22
+2022-03-26 06:29:15.400 INFO  (qtp451460284-27) [   x:tweets_data] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /Users/saiteja_11/Downloads/solr/server/solr/tweets_data/conf/managed-schema
+2022-03-26 06:29:15.584 INFO  (qtp451460284-27) [   x:tweets_data] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /Users/saiteja_11/Downloads/solr/server/solr/tweets_data/conf/managed-schema
+2022-03-26 06:29:18.556 INFO  (qtp451460284-27) [   x:tweets_data] o.a.s.u.p.LogUpdateProcessorFactory [tweets_data]  webapp=/solr path=/update params={}{add=[04633d6c-3f5e-446b-8922-178d57791b7c (1728342817933099008), bd46ac17-f837-40f9-8f55-30dc55c73231 (1728342818118696960), 5912e5bc-86ad-4751-a466-8f367ede7cf0 (1728342818124988416), dcc8dba7-0be0-48d0-b020-a7f38c56f229 (1728342818129182720), 46ff9121-3db9-4842-ae59-b8cb01ccbd29 (1728342818131279872), dce780b9-7ca7-4fef-92b7-7814030c78ec (1728342818133377024), 365e53b8-576b-4e57-a34c-3e6d96f11003 (1728342818136522752), 2d283cd4-18fc-4f65-af10-5ba9d5a41370 (1728342818138619904), b812d88b-4eb5-4453-922e-dcb357474897 (1728342818142814208), 3f122f18-ef10-49ac-9370-993ab72fc6cb (1728342818149105664), ... (8745 adds)]} 0 3474
+2022-03-26 06:29:19.947 INFO  (searcherExecutor-15-thread-1-processing-x:tweets_data) [   x:tweets_data] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-03-26 06:29:19.978 INFO  (searcherExecutor-15-thread-1-processing-x:tweets_data) [   x:tweets_data] o.a.s.c.SolrCore [tweets_data]  Registered new searcher autowarm time: 9 ms
+2022-03-26 06:29:19.985 INFO  (qtp451460284-24) [   x:tweets_data] o.a.s.u.p.LogUpdateProcessorFactory [tweets_data]  webapp=/solr path=/update params={commit=true}{commit=} 0 1296
+2022-03-26 06:29:49.692 INFO  (qtp451460284-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276189610} status=0 QTime=6
+2022-03-26 06:29:49.760 INFO  (qtp451460284-27) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276189610} status=0 QTime=74
+2022-03-26 06:34:07.547 INFO  (qtp451460284-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=27
+2022-03-26 06:34:07.614 INFO  (qtp451460284-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=13
+2022-03-26 06:34:07.636 INFO  (qtp451460284-24) [   x:tweets_data_user] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=tweets_data_user&action=STATUS&wt=json} status=0 QTime=0
+2022-03-26 06:34:07.680 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.h.a.CoreAdminOperation core create command name=tweets_data_user&action=CREATE&instanceDir=tweets_data_user&wt=json
+2022-03-26 06:34:07.771 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.1
+2022-03-26 06:34:07.776 WARN  (qtp451460284-23) [   x:tweets_data_user] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2022-03-26 06:34:07.806 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.s.IndexSchema Schema name=default-config
+2022-03-26 06:34:07.925 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2022-03-26 06:34:07.954 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.c.CoreContainer Creating SolrCore 'tweets_data_user' using configuration from instancedir /Users/saiteja_11/Downloads/solr/server/solr/tweets_data_user, trusted=true
+2022-03-26 06:34:07.957 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.tweets_data_user' (registry 'solr.core.tweets_data_user') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5b218417
+2022-03-26 06:34:07.957 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.c.SolrCore [[tweets_data_user] ] Opening new SolrCore at [/Users/saiteja_11/Downloads/solr/server/solr/tweets_data_user], dataDir=[/Users/saiteja_11/Downloads/solr/server/solr/tweets_data_user/data/]
+2022-03-26 06:34:08.217 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2022-03-26 06:34:08.217 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2022-03-26 06:34:08.222 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2022-03-26 06:34:08.222 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2022-03-26 06:34:08.234 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/saiteja_11/Downloads/solr/server/solr/tweets_data_user/conf
+2022-03-26 06:34:08.235 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2022-03-26 06:34:08.236 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxQueryFrequency=0.01,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4}
+2022-03-26 06:34:08.239 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2022-03-26 06:34:08.240 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1728343124989706240
+2022-03-26 06:34:08.243 INFO  (searcherExecutor-21-thread-1-processing-x:tweets_data_user) [   x:tweets_data_user] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-03-26 06:34:08.243 INFO  (searcherExecutor-21-thread-1-processing-x:tweets_data_user) [   x:tweets_data_user] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2022-03-26 06:34:08.243 INFO  (qtp451460284-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=tweets_data_user&action=CREATE&instanceDir=tweets_data_user&wt=json} status=0 QTime=563
+2022-03-26 06:34:08.246 INFO  (searcherExecutor-21-thread-1-processing-x:tweets_data_user) [   x:tweets_data_user] o.a.s.c.SolrCore [tweets_data_user]  Registered new searcher autowarm time: 0 ms
+2022-03-26 06:34:34.917 INFO  (qtp451460284-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276474870} status=0 QTime=9
+2022-03-26 06:34:34.922 INFO  (qtp451460284-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276474871} status=0 QTime=14
+2022-03-26 06:34:36.555 INFO  (qtp451460284-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276474870} status=0 QTime=15
+2022-03-26 06:34:36.581 INFO  (qtp451460284-47) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1648276474871&ts=1648276474871} status=503 QTime=40
+2022-03-26 06:34:36.595 INFO  (qtp451460284-25) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/system params={wt=json&_=1648276476527} status=0 QTime=53
+2022-03-26 06:34:36.625 INFO  (qtp451460284-26) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/replication params={wt=json&command=details&_=1648276476527} status=0 QTime=86
+2022-03-26 06:34:36.635 INFO  (qtp451460284-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276474871} status=0 QTime=95
+2022-03-26 06:34:36.644 INFO  (qtp451460284-24) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1648276476526} status=0 QTime=105
+2022-03-26 06:37:26.709 INFO  (qtp451460284-45) [   x:tweets_data_user] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /Users/saiteja_11/Downloads/solr/server/solr/tweets_data_user/conf/managed-schema
+2022-03-26 06:37:26.851 INFO  (qtp451460284-45) [   x:tweets_data_user] o.a.s.u.p.LogUpdateProcessorFactory [tweets_data_user]  webapp=/solr path=/update params={}{add=[0f95b5e7-257d-45b5-ac57-4e254461a3b3 (1728343333105827840), 135002b8-5ce8-45ff-8a2d-2d6a6da4cfa0 (1728343333162450944), a924da99-7d10-4025-8101-9410219a52e5 (1728343333172936704), 1f12b4fc-a231-424e-a543-c812a408d83c (1728343333180276736), 90d09175-f3ba-4751-abf8-5e5c35903d61 (1728343333183422464), 476c209e-949a-4ef5-99e9-352793da3035 (1728343333185519616), d26d4bc7-330e-4659-afc2-9de882c7fd20 (1728343333185519617), 333d739d-2f17-450f-a0d4-58777035c211 (1728343333186568192), 152460de-b198-4bd6-b2b5-1eee54e745bd (1728343333186568193), 4d259653-5d55-4a6f-8f8d-51328849aea8 (1728343333189713920), ... (149 adds)]} 0 308
+2022-03-26 06:37:27.177 INFO  (searcherExecutor-21-thread-1-processing-x:tweets_data_user) [   x:tweets_data_user] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-03-26 06:37:27.198 INFO  (searcherExecutor-21-thread-1-processing-x:tweets_data_user) [   x:tweets_data_user] o.a.s.c.SolrCore [tweets_data_user]  Registered new searcher autowarm time: 0 ms
+2022-03-26 06:37:27.199 INFO  (qtp451460284-24) [   x:tweets_data_user] o.a.s.u.p.LogUpdateProcessorFactory [tweets_data_user]  webapp=/solr path=/update params={commit=true}{commit=} 0 339
+2022-03-26 06:37:32.235 INFO  (qtp451460284-47) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276474870} status=0 QTime=4
+2022-03-26 06:37:32.242 INFO  (qtp451460284-44) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1648276474871&ts=1648276474871} status=503 QTime=2
+2022-03-26 06:37:32.251 INFO  (qtp451460284-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276474871} status=0 QTime=19
+2022-03-26 06:37:32.251 INFO  (qtp451460284-24) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/replication params={wt=json&command=details&_=1648276476527} status=0 QTime=11
+2022-03-26 06:37:32.252 INFO  (qtp451460284-26) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1648276476526} status=0 QTime=21
+2022-03-26 06:37:32.252 INFO  (qtp451460284-20) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/admin/system params={wt=json&_=1648276476527} status=0 QTime=17
+2022-03-26 06:37:34.235 INFO  (qtp451460284-26) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1648276474871&ts=1648276474871} status=503 QTime=0
+2022-03-26 06:37:34.235 INFO  (qtp451460284-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276474870} status=0 QTime=0
+2022-03-26 06:37:34.237 INFO  (qtp451460284-21) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1648276476526} status=0 QTime=2
+2022-03-26 06:37:34.240 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/replication params={wt=json&command=details&_=1648276476527} status=0 QTime=5
+2022-03-26 06:37:34.246 INFO  (qtp451460284-20) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/system params={wt=json&_=1648276476527} status=0 QTime=11
+2022-03-26 06:37:34.248 INFO  (qtp451460284-49) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276474871} status=0 QTime=13
+2022-03-26 06:38:00.193 INFO  (qtp451460284-44) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276474870} status=0 QTime=3
+2022-03-26 06:38:00.198 INFO  (qtp451460284-20) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1648276474871&ts=1648276474871} status=503 QTime=5
+2022-03-26 06:38:00.202 INFO  (qtp451460284-24) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1648276476526} status=0 QTime=10
+2022-03-26 06:38:00.202 INFO  (qtp451460284-25) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/replication params={wt=json&command=details&_=1648276476527} status=0 QTime=10
+2022-03-26 06:38:00.241 INFO  (qtp451460284-26) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/admin/system params={wt=json&_=1648276476527} status=0 QTime=51
+2022-03-26 06:38:00.241 INFO  (qtp451460284-47) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276474871} status=0 QTime=52
+2022-03-26 06:38:02.155 INFO  (qtp451460284-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276474870} status=0 QTime=3
+2022-03-26 06:38:02.183 INFO  (qtp451460284-47) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1648276474871&ts=1648276474871} status=503 QTime=0
+2022-03-26 06:38:02.188 INFO  (qtp451460284-49) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1648276476526} status=0 QTime=2
+2022-03-26 06:38:02.192 INFO  (qtp451460284-21) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/replication params={wt=json&command=details&_=1648276476527} status=0 QTime=9
+2022-03-26 06:38:02.215 INFO  (qtp451460284-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276474871} status=0 QTime=31
+2022-03-26 06:38:02.215 INFO  (qtp451460284-26) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/system params={wt=json&_=1648276476527} status=0 QTime=31
+2022-03-26 06:38:05.673 INFO  (qtp451460284-43) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1648276474871&ts=1648276474871} status=503 QTime=0
+2022-03-26 06:38:05.675 INFO  (qtp451460284-20) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/replication params={wt=json&command=details&_=1648276476527} status=0 QTime=3
+2022-03-26 06:38:05.675 INFO  (qtp451460284-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276474870} status=0 QTime=3
+2022-03-26 06:38:05.686 INFO  (qtp451460284-44) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276474871} status=0 QTime=14
+2022-03-26 06:38:05.690 INFO  (qtp451460284-24) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1648276476526} status=0 QTime=3
+2022-03-26 06:38:05.695 INFO  (qtp451460284-26) [   x:tweets_data] o.a.s.c.S.Request [tweets_data]  webapp=/solr path=/admin/system params={wt=json&_=1648276476527} status=0 QTime=21
+2022-03-26 06:38:15.992 INFO  (qtp451460284-26) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1648276474871&ts=1648276474871} status=503 QTime=4
+2022-03-26 06:38:15.993 INFO  (qtp451460284-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276474870} status=0 QTime=0
+2022-03-26 06:38:16.001 INFO  (qtp451460284-21) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1648276476526} status=0 QTime=8
+2022-03-26 06:38:16.002 INFO  (qtp451460284-49) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/replication params={wt=json&command=details&_=1648276476527} status=0 QTime=8
+2022-03-26 06:38:16.005 INFO  (qtp451460284-24) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/admin/system params={wt=json&_=1648276476527} status=0 QTime=12
+2022-03-26 06:38:16.005 INFO  (qtp451460284-47) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276474871} status=0 QTime=18
+2022-03-26 06:38:17.335 INFO  (qtp451460284-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276474870} status=0 QTime=2
+2022-03-26 06:38:17.363 INFO  (qtp451460284-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276474871} status=0 QTime=30
+2022-03-26 06:38:18.705 INFO  (qtp451460284-23) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&_=1648276697305} hits=149 status=0 QTime=70
+2022-03-26 06:38:18.803 INFO  (qtp451460284-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1648276474870} status=0 QTime=1
+2022-03-26 06:38:18.821 INFO  (qtp451460284-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1648276474871} status=0 QTime=20
+2022-03-26 06:38:18.823 INFO  (qtp451460284-49) [   x:tweets_data_user] o.a.s.c.S.Request [tweets_data_user]  webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&_=1648276697305} hits=149 status=0 QTime=22
+2022-03-26 06:38:53.598 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@119020fb{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2022-03-26 06:38:53.599 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2022-03-26 06:38:53.606 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=704387627
+2022-03-26 06:38:53.618 INFO  (coreCloseExecutor-27-thread-2) [   ] o.a.s.c.SolrCore [tweets_data_user]  CLOSING SolrCore org.apache.solr.core.SolrCore@39d0b45b
+2022-03-26 06:38:53.618 INFO  (coreCloseExecutor-27-thread-1) [   ] o.a.s.c.SolrCore [tweets_data]  CLOSING SolrCore org.apache.solr.core.SolrCore@5e69759e
+2022-03-26 06:38:53.619 INFO  (coreCloseExecutor-27-thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.tweets_data tag=SolrCore@5e69759e
+2022-03-26 06:38:53.620 INFO  (coreCloseExecutor-27-thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@18637827: rootName = null, domain = solr.core.tweets_data, service url = null, agent id = null] for registry solr.core.tweets_data/com.codahale.metrics.MetricRegistry@744a3327
+2022-03-26 06:38:53.665 INFO  (coreCloseExecutor-27-thread-2) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.tweets_data_user tag=SolrCore@39d0b45b
+2022-03-26 06:38:53.665 INFO  (coreCloseExecutor-27-thread-2) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@c537807: rootName = null, domain = solr.core.tweets_data_user, service url = null, agent id = null] for registry solr.core.tweets_data_user/com.codahale.metrics.MetricRegistry@5dfdb01d
+2022-03-26 06:38:53.670 INFO  (coreCloseExecutor-27-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2022-03-26 06:38:53.713 INFO  (coreCloseExecutor-27-thread-2) [   ] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2022-03-26 06:38:53.729 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2022-03-26 06:38:53.729 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@4375b013: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node/com.codahale.metrics.MetricRegistry@44d305bd
+2022-03-26 06:38:53.736 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2022-03-26 06:38:53.736 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@a96d56c: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm/com.codahale.metrics.MetricRegistry@338b8d78
+2022-03-26 06:38:53.736 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2022-03-26 06:38:53.737 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@6ab4a5b: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty/com.codahale.metrics.MetricRegistry@4caadcdf
+2022-03-26 06:38:53.751 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@3fc9dfc5{/solr,null,STOPPED}{/Users/saiteja_11/Downloads/solr/server/solr-webapp/webapp}
